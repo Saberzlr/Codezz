@@ -21,3 +21,12 @@ hen5 = 2
 hen6 = 50
 sum = hen1 + hen2 + hen3 + hen4 + hen5 + hen6
 print(f"这六只鸡的总体重是{sum}kg,平均体重是{round(sum / 6, 2)}kg")
+
+
+# 使用数据容器解决
+list_hens = [3, 5, 1, 3.4, 2, 50]
+sum = 0
+for i in list_hens:
+    sum += i
+    i += 1
+print(f"这六只鸡的总体重是{sum}kg,平均体重是{round(sum / len(list_hens), 2)}kg")
