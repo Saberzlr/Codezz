@@ -64,4 +64,4 @@ print("-" * 40)
 s_new03 = s_history.intersection(s_politic, s_english)
 # fun2
 s_new03 = s_history & s_english & s_politic
-print(f"选了三门学科的学生数量为:{len(s_new03)}和学生名字:{s_new03}")
+print(f"选了三门学科的学生数量为:{len(s_new03)}人,学生名字为:{s_new03}")
