@@ -1324,7 +1324,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="uyzRxfClL-k2EnMLLI_a" name="排序">
-        <mxGraphModel dx="1472" dy="881" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="2004" dy="881" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -1388,7 +1388,7 @@
                 <mxCell id="XJsIg42o5KMh99pyarHK-23" value="" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;glass=0;shadow=1;gradientColor=none;" vertex="1" parent="1">
                     <mxGeometry x="91" y="598" width="586" height="398" as="geometry"/>
                 </mxCell>
-                <mxCell id="XJsIg42o5KMh99pyarHK-24" value="&lt;font face=&quot;小赖字体 等宽 SC&quot;&gt;第三轮排序：把第四大的数放到倒数第四个的位置&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=#66FFB3;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=#000000;glass=0;shadow=1;gradientColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="1">
+                <mxCell id="XJsIg42o5KMh99pyarHK-24" value="&lt;font face=&quot;小赖字体 等宽 SC&quot;&gt;第四轮排序：把第四大的数放到倒数第四个的位置&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=#66FFB3;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=#000000;glass=0;shadow=1;gradientColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="1">
                     <mxGeometry x="126" y="632" width="516" height="48" as="geometry"/>
                 </mxCell>
                 <mxCell id="XJsIg42o5KMh99pyarHK-25" value="&lt;font face=&quot;小赖字体 等宽 SC&quot;&gt;第一次比较：24 &amp;gt; 13，交换24和13的位置&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=#66FFB3;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=#000000;glass=0;shadow=1;gradientColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="1">
