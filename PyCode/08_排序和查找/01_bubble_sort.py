@@ -9,10 +9,10 @@
 
 # [24, 69, 80, 57, 13] => 使用冒泡排序实现从小到大排序
 '''
-冒泡排序
-    每一轮排序能确定一个元素的最终位置
-    n个数排序 => n - 1轮排序
-    第i轮排序 => n - i次比较
+冒泡排序(要点)
+    1. 每一轮排序能确定一个元素的最终位置
+    2. n个数排序 => n - 1轮排序
+    3. 第i轮排序 => n - i次比较
 思路分析:
 1) 化繁为简
     1) 第一轮排序:把最大的数放到最后的位置
@@ -66,7 +66,7 @@ def bubble_sort(my_list):
             if my_list[j] > my_list[j + 1]:
                 # 执行swap操作
                 my_list[j], my_list[j + 1] = my_list[j + 1], my_list[j]
-        print(f"第{i}轮排序的结果为: {my_list}")
+        print(f"第{i + 1}轮排序的结果为: {my_list}")
     return my_list
 print("排序过程".center(31, "-"))
 print(f"最终排序结果为: {bubble_sort(num_list)}")
@@ -86,5 +86,26 @@ def bubble_sort(my_list):
             if my_list[j] > my_list[j + 1]:
                 # 执行swap操作
                 my_list[j], my_list[j + 1] = my_list[j + 1], my_list[j]
-        print(f"第{i}轮排序的结果为: {my_list}")
+        print(f"第{i + 1}轮排序的结果为: {my_list}")
     return my_list
+
+
+# 实现列表从大到小排序
+num_list = [1, 2, 3, 4, 5, 6]
+def bubble_sort(my_list):
+    """_summary_
+        对传入的列表进行排序(从小到大)
+    Args:
+        my_list (_type_): 传入的列表
+        return: 排序好的列表
+    """
+    # i变量控制排序的轮数
+    for i in range(len(my_list) - 1):
+        # j变量控制比较的次数,同时作为比较元素的索引下标
+        for j in range(len(my_list) - 1 - i):
+            if my_list[j] < my_list[j + 1]:
+                # 执行swap操作
+                my_list[j], my_list[j + 1] = my_list[j + 1], my_list[j]
+        print(f"第{i + 1}轮排序的结果为: {my_list}")
+    return my_list
+print(f"最终排序结果为: {bubble_sort(num_list)}")
