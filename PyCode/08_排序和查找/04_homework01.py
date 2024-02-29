@@ -11,7 +11,7 @@ import random
 # 随机生成10个整数(1-100的范围)保存到列表,使用冒泡排序,对其进行从大到小排序
 num_list = []
 for i in range(10):
-    num_list.append(random.randint(1, 101))
+    num_list.append(random.randint(1, 100))
 print("排序前:", num_list)
 
 def bubble_sort(list):
