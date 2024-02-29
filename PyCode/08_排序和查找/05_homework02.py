@@ -45,6 +45,4 @@ new_list = []
 if res_index == -1:
     print("没找到:(")
 else:
-    new_list.append(res_index)
-    for ele in new_list:
-        print(f"找到了:),其下标为:{ele}")
+    print(f"找到了:),其下标为:{res_index}")
