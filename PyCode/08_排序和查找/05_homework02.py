@@ -37,7 +37,9 @@ def binary_search(list, find_val):
             find_index = mid
             break
     return find_index
-res_index = binary_search(num_list, 89)
+
+find_val = int(input("请输入你要查找的数:"))
+res_index = binary_search(num_list, find_val)
 
 new_list = []
 if res_index == -1:
