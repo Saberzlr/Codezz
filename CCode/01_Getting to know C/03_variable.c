@@ -9,7 +9,7 @@
  */
 
 #include <stdio.h>
-
+#include "03_sum.c"
 /*
 int num2 = 20;      // 全局变量 - 定义在大括号{}之外的变量
 int main()
