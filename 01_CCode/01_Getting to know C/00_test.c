@@ -9,26 +9,21 @@
  */
 
 #include <stdio.h>
+#include <string.h>
+
+int sum (int x, int y)
+{
+    int z;
+    z = x + y;
+    return z;
+}
 int main()
 {
-    int BJT, UTC;
-    scanf("%d", &BJT);
-
-    int hour = BJT / 100;
-    int min = BJT % 100;
-    // printf("%d %d", hour, min);
-    // 处理小时
-    if (hour - 8 >= 0)
-        hour -= 8;
-    else
-        hour += 16;
-    // 输出
-    UTC = hour * 100 + min;
-    if (hour == 0)
-        printf("%d", min);
-    else {
-        printf("%d%02d", hour, min);
-    }
+    int a = 2, b = 4;
+    int c = sum(a, b);
+    int x = 5, y = 6;
+    int cc = sum(x, y);
+    printf("%d %d", c, cc);
 
     return 0;
 }
