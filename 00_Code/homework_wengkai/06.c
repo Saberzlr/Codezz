@@ -1,10 +1,10 @@
 /**
  * ***********************************
  * @version :   1.0
- * @date    :   2024/03/12 15:40
- * @file    :   00_test.c
+ * @date    :   2024/03/25 19:26
+ * @file    :   06.c
  * @author  :   Saber
- * @brief   :
+ * @brief   :   数字特征值
  * ***********************************
  */
 
@@ -31,7 +31,7 @@ int main()
         num = num / 10;
         count++;
         // if ((digital % 2 == 0 && count % 2 == 0) || (digital % 2 != 0 && count % 2 != 0))
-        if((digital + count)%2==0)
+        if ((digital + count) % 2 == 0)
         {
             sum += 1 * pow(2, (count - 1));
         }
