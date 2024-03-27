@@ -4,14 +4,13 @@
  * @date    :   2024/03/27 17:54
  * @file    :   06_max_gys.c
  * @author  :   Saber
- * @brief   :
+ * @brief   :   求最大公约数
  * ***********************************
  */
 
 #include <stdio.h>
 int main()
 {
-    // 求最大公约数
     // 方法1：暴力求解 => 效率低
     int num1, num2, min, gcd;
     scanf("%d %d", &num1, &num2);
