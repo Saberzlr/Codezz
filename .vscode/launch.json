@@ -6,7 +6,8 @@
     "configurations": [
         // python配置
         {
-            "name": "Python: 当前文件",
+            // "name": "Python: 当前文件",
+            "name": "Python: Launch",
             "type": "debugpy",
             "request": "launch",
             "program": "${file}",
@@ -14,7 +15,8 @@
         },
         // c/c++配置
         {
-            "name": "(gdb) Launch",
+            // "name": "(gdb) Launch",
+            "name": "C/C++: Launch",
             "preLaunchTask": "DEBUG",//调试前执行的任务，就是之前配置的tasks.json中的label字段
             "type": "cppdbg",//配置类型，只能为cppdbg
             "request": "launch",//请求配置类型，可以为launch（启动）或attach（附加）

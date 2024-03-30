@@ -9,13 +9,15 @@
  */
 
 #include <stdio.h>
+// 指针变量的大小取决于地址的大小
+// 32位平台下地址是32个bit位（即4个字节）
+// 64位平台下地址是64个bit位（即8个字节）
 int main()
 {
-    int a = 10;
-    int b = a++;                      // a++表示：先使用a的值，再将a+1
-    printf("a = %d, b = %d\n", a, b); // a = 11, b = 10
-    int c = ++a;                      // ++a表示：先将a+1，再使用a的值
-    printf("a = %d, c = %d\n", a, c); // a = 12, c = 12
+    printf("%d\n", sizeof(char *));   // 8
+    printf("%d\n", sizeof(short *));  // 8
+    printf("%d\n", sizeof(int *));    // 8
+    printf("%d\n", sizeof(double *)); // 8
 
     return 0;
 }
