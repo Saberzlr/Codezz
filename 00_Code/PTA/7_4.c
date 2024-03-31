@@ -1,21 +1,19 @@
 /**
  * ***********************************
  * @version :   1.0
- * @date    :   2024/03/12 15:40
- * @file    :   00_test.c
+ * @date    :   2024/03/31 18:20
+ * @file    :   7_4.c
  * @author  :   Saber
- * @brief   :   test
+ * @brief   :   输出菱形图案
  * ***********************************
  */
 
 #include <stdio.h>
-
 int main()
 {
-    for (int i = 1; i <= 100; i += 2)
-    {
-        printf("%d ", i);
-    }
+    printf("  A\n");
+    printf("A   A\n");
+    printf("  A");
 
     return 0;
 }
