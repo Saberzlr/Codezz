@@ -9,12 +9,25 @@
  */
 
 #include <stdio.h>
-
 int main()
 {
-    for (int i = 1; i <= 100; i += 2)
+    int x;
+    int count[10] = {0};
+
+    scanf("%d", &x);
+
+    while (x != -1)
     {
-        printf("%d ", i);
+        scanf("%d", &x);
+        if (x >= 0 && x <= 9)
+        {
+            count[x]++;
+        }
+    }
+
+    for (int i = 0; i < 10; i++)
+    {
+        printf("%d\n", count[i]);
     }
 
     return 0;
