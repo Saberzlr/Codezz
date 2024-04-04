@@ -10,6 +10,7 @@
 
 #include <stdio.h>
 
+// 循环实现
 void PrintN1(int N)
 {
 	int i;
@@ -19,6 +20,7 @@ void PrintN1(int N)
 	}
 }
 
+// 递归实现
 void PrintN2(int N)
 {
 	if (N)
@@ -30,8 +32,11 @@ void PrintN2(int N)
 
 int main()
 {
+	// 输入
 	int N;
 	scanf("%d", &N);
+
+	// 执行函数并输出
 	PrintN1(N);
 	// 递归程序对空间占用太大了
 	// 解决问题方法的效率，跟空间的利用效率有关

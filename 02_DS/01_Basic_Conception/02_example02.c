@@ -11,12 +11,27 @@
 #include <math.h>
 #include <stdio.h>
 
+// 一般方法 - 不推荐
 double f1(int n, double a[], double x)
 {
     int i;
     double p = a[0];
     for (i = 1; i <= n; i++)
+    {
         p += a[i] * pow(x, i);
+    }
+    return p;
+}
+
+// 秦九韶算法
+double f2(int n, double a[], double x)
+{
+    int i;
+    double p = a[n];
+    for (i = n; i > 0; i--)
+    {
+        p += a[i - 1] + x * p;
+    }
     return p;
 }
 
