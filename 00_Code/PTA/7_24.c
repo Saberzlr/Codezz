@@ -23,7 +23,7 @@ int main()
     {
         scanf("%d", &num);
         cnt++;
-        if (num <= 0 || cnt > N)
+        if (num < 0 || cnt > N)
         {
             printf("Game Over\n");
             break;
@@ -48,10 +48,12 @@ int main()
                 else if (cnt <= 3)
                 {
                     printf("Lucky You!\n");
+                    break;
                 }
                 else if (cnt <= N)
                 {
                     printf("Good Guess!\n");
+                    break;
                 }
                 else
                 {
