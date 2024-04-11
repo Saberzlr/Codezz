@@ -16,9 +16,9 @@ int main()
     for (x = 2; cnt < 50; x++)
     {
         int isPrime = 1;
-        for (i = 2; i < x; i++)
+        for (i = 2; i <= x; i++)
         {
-            if (x % i == 0)
+            if (x % i == 0 && x != i)
             {
                 isPrime = 0;
                 break;
