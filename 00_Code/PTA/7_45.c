@@ -29,6 +29,8 @@ int main()
                 sum += j;
             }
         }
+
+        // 规范格式 => 方法1
         if (sum == i)
         {
             isWan = 1;
