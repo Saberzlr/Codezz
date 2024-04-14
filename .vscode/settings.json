@@ -63,7 +63,8 @@
         "ae350.h": "c",
         "atcsmu100.h": "c",
         "stdio.h": "c",
-        "time.h": "c"
+        "time.h": "c",
+        "7_46.C": "cpp"
     },
     "C_Cpp.clang_format_sortIncludes": true, // 格式化时调整include的顺序（按字母排序）
     "clang.cflags": [ // 控制c语言静态检测的参数
