@@ -12,8 +12,11 @@
 int main()
 {
     // 输入
+    int t;
+    scanf("%d", &t);
     int n;
-    scanf("%d", &n);
+    n = t / 2 + 1;
+
     /*
     // 1. 打印正方形
     // *****
@@ -67,39 +70,29 @@ int main()
         printf("\n");
     }
     */
-    // 打印
 
+    // 打印
     // 上半部分
     for (int i = 0; i < n; i++)
     {
-        for (int j = 0; j < 2 * n; j++)
+        for (int j = 0; i + j < n - 1; j++)
         {
-            if (j - i < n && i + j >= n - 1)
-            {
-                printf("*");
-            }
-            else
-            {
-                printf(" ");
-            }
+            printf("  ");
+        }
+        for (int k = 0; k < 2 * i + 1; k++)
+        {
+            printf("* ");
         }
         printf("\n");
     }
 
     // 下半部分
-    for (int i = n; i < 2 * n - 1; i++)
+    for (int i = 0; i < n; i++)
     {
-        for (int j = 0; j < 2 * n - 1; j++)
-        {
-            if (i - j < n && i + j <= 3 * (n - 1))
-            {
-                printf("*");
-            }
-            else
-            {
-                printf(" ");
-            }
-        }
+        for (int j = 0; j < 2 * (i + 1); j++)
+            printf(" ");
+        for (int k = 1; k <= (n * 2 - 1) - 2 * (i + 1); k++)
+            printf("* ");
         printf("\n");
     }
 
